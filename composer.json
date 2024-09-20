@@ -1,0 +1,22 @@
+{
+    "name": "artdevision/phan-laravel-plugin",
+    "description": "PHan plugin",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Artdevision\\PhanLaravelPlugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrey Myslin",
+            "email": "artdevision@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.2",
+        "phan/phan": "~5.4.4 @stable"
+    }
+}
